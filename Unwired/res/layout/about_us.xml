@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D4D4D">
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+<TextView 
+    android:id="@+id/txtheading"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TEAM UNWIRED"
+    android:textColor="#FFFFFF"
+    android:textSize="30dp"
+    android:layout_marginBottom="10dp"
+    android:layout_centerHorizontal="true"/>
+
+<RelativeLayout 
+    android:id="@+id/lay"
+    android:layout_below="@id/txtheading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView 
+		android:id="@+id/image"
+		android:src="@drawable/team_photo"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"/>
+    
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/txtus"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:gravity="left"
+    android:layout_below="@id/lay"
+    android:layout_alignParentLeft="true" />
+
+<TextView 
+    android:id="@+id/txt1"
+    android:layout_below="@id/txtus"
+    android:layout_marginLeft="7dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In the words of our Faculty Advisor :"
+    android:textColor="#FFFFFF"
+    android:textSize="25dp"
+    android:layout_marginBottom="10dp"
+    android:layout_alignParentLeft="true"/>
+
+<TextView
+    android:id="@+id/txttext"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:gravity="left"
+    android:layout_below="@id/txt1"
+    android:layout_alignParentLeft="true" />
+    
+<TextView 
+    android:id="@+id/txt2"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="15dp"
+    android:layout_below="@id/txttext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In the words of a Pass-Out :"
+    android:textColor="#FFFFFF"
+    android:textSize="25dp"
+    android:layout_marginBottom="10dp"
+    android:layout_alignParentLeft="true"/>
+
+<TextView
+    android:id="@+id/txttext2"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:gravity="left"
+    android:layout_below="@id/txt2"
+    android:layout_alignParentLeft="true" />
+
+<TextView 
+    android:id="@+id/txt3"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="15dp"
+    android:layout_below="@id/txttext2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In the words of one of us :"
+    android:textColor="#FFFFFF"
+    android:textSize="25dp"
+    android:layout_marginBottom="10dp"
+    android:layout_alignParentLeft="true"/>
+
+<TextView
+    android:id="@+id/txttext3"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:gravity="left"
+    android:layout_below="@id/txt3"
+    android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
+</ScrollView>
